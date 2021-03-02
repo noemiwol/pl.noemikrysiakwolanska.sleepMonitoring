@@ -11,6 +11,6 @@ import java.time.LocalDate;
 @Getter
 public class UpdateTimeOfAwakeningDto {
     private Long timeOfAwakeningId;
-    private LocalDate updateTimeOfAwakening;
-    String description;
+    private LocalDate timeOfAwakening;
+    private String description;
 }

@@ -11,5 +11,5 @@ import java.time.LocalDate;
 public class CreateTimeOfSleepDto {
     private Long timeOfSleepId;
     private LocalDate timeOfSleep;
-    String description;
+    private String description;
 }

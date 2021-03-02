@@ -14,5 +14,5 @@ import java.time.LocalDateTime;
 public class CreateTimeOfAwakeningDto {
     private Long timeOfAwakeningId;
     private LocalDate timeOfAwakening;
-    String description;
+    private String description;
 }

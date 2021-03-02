@@ -11,6 +11,6 @@ import java.time.LocalDate;
 @Getter
 public class UpdateTimeOfSleepDto {
     private Long timeOfSleepId;
-    private LocalDate updateTimeOfSleep;
-    String description;
+    private LocalDate timeOfSleep;
+    private String description;
 }
