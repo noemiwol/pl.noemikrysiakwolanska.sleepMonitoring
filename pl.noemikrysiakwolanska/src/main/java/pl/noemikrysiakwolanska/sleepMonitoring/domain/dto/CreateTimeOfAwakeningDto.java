@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Getter
 public class CreateTimeOfAwakeningDto {
+    private Long timeOfAwakeningId;
     private LocalDate timeOfAwakening;
     String description;
 }

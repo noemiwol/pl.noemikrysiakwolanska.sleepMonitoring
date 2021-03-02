@@ -3,13 +3,15 @@ package pl.noemikrysiakwolanska.sleepMonitoring.domain.dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-import java.time.LocalDate;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class CreateTimeOfSleepDto {
-    private Long timeOfSleepId;
-    private LocalDate timeOfSleep;
-    String description;
+public class AverageSleep {
+    private Long AverageSleepId;
+    private double AverageSleep;
 }

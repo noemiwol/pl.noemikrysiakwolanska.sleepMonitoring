@@ -10,6 +10,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 public class UpdateTimeOfSleepDto {
+    private Long timeOfSleepId;
     private LocalDate updateTimeOfSleep;
     String description;
 }
