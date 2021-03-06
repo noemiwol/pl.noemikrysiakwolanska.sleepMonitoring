@@ -1,4 +1,4 @@
-package pl.noemikrysiakwolanska.sleepMonitoring;
+package pl.noemikrysiakwolanska.sleepMonitoring.domian.dto;
 
 import java.time.LocalDateTime;
 

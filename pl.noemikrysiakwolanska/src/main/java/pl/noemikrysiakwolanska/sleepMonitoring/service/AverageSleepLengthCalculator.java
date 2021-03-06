@@ -1,8 +1,9 @@
-package pl.noemikrysiakwolanska.sleepMonitoring;
+package pl.noemikrysiakwolanska.sleepMonitoring.service;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.Event;
 
 import java.time.Duration;
 import java.util.List;

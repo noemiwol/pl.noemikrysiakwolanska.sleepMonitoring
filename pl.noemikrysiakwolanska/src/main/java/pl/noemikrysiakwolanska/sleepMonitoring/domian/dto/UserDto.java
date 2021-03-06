@@ -1,15 +1,13 @@
-package pl.noemikrysiakwolanska.sleepMonitoring;
+package pl.noemikrysiakwolanska.sleepMonitoring.domian.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
 @AllArgsConstructor
-@Getter
-
-public class User {
-    private Long id;
+@NoArgsConstructor
+@Data
+public class UserDto {
     private String login;
     private String password;
 }

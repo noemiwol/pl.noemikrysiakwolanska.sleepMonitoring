@@ -1,6 +1,7 @@
-package pl.noemikrysiakwolanska.sleepMonitoring;
+package pl.noemikrysiakwolanska.sleepMonitoring.service;
 
 import org.springframework.stereotype.Service;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.Event;
 
 import java.time.Duration;
 

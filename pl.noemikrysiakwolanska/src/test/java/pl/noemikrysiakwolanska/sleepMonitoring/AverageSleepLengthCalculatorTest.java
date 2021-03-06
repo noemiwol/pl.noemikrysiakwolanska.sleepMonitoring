@@ -2,6 +2,11 @@ package pl.noemikrysiakwolanska.sleepMonitoring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.Event;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.SleepEvent;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.WakeUpEvent;
+import pl.noemikrysiakwolanska.sleepMonitoring.service.AverageSleepLengthCalculator;
+import pl.noemikrysiakwolanska.sleepMonitoring.service.LengthOfSleepCalcuralor;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
