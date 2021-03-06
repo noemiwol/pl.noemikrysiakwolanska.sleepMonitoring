@@ -2,14 +2,13 @@ package pl.noemikrysiakwolanska.sleepMonitoring;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.time.Duration;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.SortedSet;
-import java.util.stream.Stream;
 
 @AllArgsConstructor
+@Service
 public class AverageSleepLengthCalculator {
 
     @Autowired
