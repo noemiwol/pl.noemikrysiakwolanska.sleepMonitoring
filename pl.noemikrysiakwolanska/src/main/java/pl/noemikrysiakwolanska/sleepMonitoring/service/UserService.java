@@ -14,7 +14,4 @@ import javax.transaction.Transactional;
 @RequiredArgsConstructor
 public class UserService {
 
-  private final UserRepository userRepository;
-
-
 }

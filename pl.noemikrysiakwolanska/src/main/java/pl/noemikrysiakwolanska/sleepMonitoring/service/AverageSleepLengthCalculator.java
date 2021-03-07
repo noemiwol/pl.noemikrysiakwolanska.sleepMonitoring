@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.Event;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.SleepEvent;
+import pl.noemikrysiakwolanska.sleepMonitoring.domian.dto.WakeUpEvent;
 
 import java.time.Duration;
 import java.util.List;
@@ -31,4 +33,6 @@ public class AverageSleepLengthCalculator {
 
         return totalDuration.dividedBy(events.stream().count() - 1);
     }
+
+
 }
